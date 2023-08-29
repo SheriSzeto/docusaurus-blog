@@ -47,7 +47,8 @@ const config = {
         blog: {
           path: './blog',
           showReadingTime: true,
-          routeBasePath: '/'
+          routeBasePath: '/',
+          blogSidebarTitle: '最近发布'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
